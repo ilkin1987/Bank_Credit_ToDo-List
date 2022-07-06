@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Bank Credit</title>
+</head>
+<body>
+  
+    <section id="first">
+       
+        <div class="div">
+          
+            <h1>Kredit Məbləği (AZN)<span id="amount"></span></h1>
+            <input type="text" placeholder="Kredit Meblegini Daxil Edin" id="Amount">
+         
+        </div>
+        <div class="div">
+            <h1>Faiz Dərəcəsi (%)<span id="interest1"></span></h1>
+            <input type="text" placeholder="Faiz Derecesini Daxil Edin" id="Interest">
+         
+        </div>
+        <div class="div">
+            <h1>Kredit Müddəti (AY)<span id="month"></span></h1>
+            <input type="text" placeholder="Kredit Muddetini Daxil Edin" id="Month">
+            
+        </div>
+
+            <table>
+                <button onclick="Sum()">Hesabla</button>
+                <tr>
+                    <th>Ümumi məbləğ</th>
+                    <th>Aylıq Odəniş</th>
+                    <th>Ümumi Faiz</th>
+                </tr>
+                <tr>
+                    <td id="totalamount"></td>
+                    <td id="monthlypayment"></td>
+                    <td id="interest2"></td>
+                </tr>
+            </table>
+           
+    </section>
+    <script src="JS/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+}
+.div{
+    padding: 1rem 4rem;
+    width: 40%;
+    margin-left: 10rem;
+
+}
+.div input{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 2px solid rgb(11, 1, 1);
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.div h1{
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+table{
+    font-family:sans-serif;
+    text-transform: uppercase;
+    border-collapse: collapse;
+    margin-left: 15.5rem;
+    
+}
+table th, table td{
+    border: 2px solid #ddd;
+    padding: 16px;
+
+}
+table th{
+    text-align: left;
+    background-color: #440be2;
+    color:#fff; 
+    ;
+}
+table td{
+    font-weight: bold;
+    
+}
+#first button{
+    font-family: sans-serif;
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #8304aa;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+    margin: 20px;
+    margin-left: 25rem;
+    
+}
